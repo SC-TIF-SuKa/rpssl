@@ -74,8 +74,8 @@ function handleButton(elem){
 			document.getElementById("spocksamples").innerText = "Spock samples:" + spockSamples;
 			break;
     case "4":
-      scissorsSamples++;
-      document.getElementById("lizardsamples").innerText = "Lizard samples:" + scissorsSamples;
+      lizardSamples++;
+      document.getElementById("lizardsamples").innerText = "Lizard samples:" + lizardSamples;
       break;
 	}
 	label = parseInt(elem.id);
